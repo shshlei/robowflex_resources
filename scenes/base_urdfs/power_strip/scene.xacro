@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="ur3">
+  <xacro:include filename="$(find random_scene_gen)/base_urdfs/power_strip/ur3_robot.xacro"/>
+  <xacro:ur3_robot prefix="" joint_limited="false"/>
+
+  <link name="world"/>
+  <material name="red">
+    <color rgba="0.8 0.01 0.01 0.3"/>
+  </material>
+
+  
+  <joint name="world_to_power_strip" type="fixed">
+    <origin xyz="0.2 0.2 0" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="power_strip"/>
+  </joint>
+  <link name="power_strip">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur3/power_strip.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur3/power_strip.dae"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="ee_link_to_plug" type="fixed">
+    <origin xyz="0 0 0.165" rpy="${pi} 0 0"/>
+    <parent link="ee_link"/>
+    <child link="plug"/>
+  </joint>
+  <link name="plug">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur3/plug.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur3/plug.dae"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link = "base_link"/>
+    <origin xyz="0.7 0.45 0" rpy="0 0 0"/>
+  </joint>
+  
+</robot>

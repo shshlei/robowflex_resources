@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<robot name="messy" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find urdf_to_scene)/config/utils.xacro" />
+    <xacro:include filename="$(find urdf_to_scene)/config/fence.urdf.xacro" />
+    <xacro:include filename="$(find robowflex_resources)/scenes/base_urdfs/materials.urdf.xacro" /> 
+    <xacro:include filename="$(find robowflex_resources)/scenes/base_urdfs/shelf_place/parameters.urdf.xacro" />
+    <xacro:include filename="$(find robowflex_resources)/scenes/messy/shelf1.xacro"/>
+    <xacro:include filename="$(find robowflex_resources)/scenes/messy/shelf2.xacro"/>
+    <xacro:include filename="$(find robowflex_resources)/scenes/messy/shelf3.xacro"/>
+    <xacro:include filename="$(find robowflex_resources)/scenes/messy/shelf4.xacro"/>
+    <xacro:include filename="$(find robowflex_resources)/scenes/messy/shelf5.xacro"/>
+
+    <xacro:include filename="$(find robowflex_resources)/scenes/messy/table2.xacro"/>
+
+    <link name="world" />
+
+    <!-- Create the fence -->
+    <xacro:fence name="fence" frame_id="world" dimensions="10.0 10.0 1.5"/>
+
+    <xacro:shelf1 name="shelves1" frame_id="world" xyz="3.0 3.5 0.0" rpy="0 0 ${pi}"/>
+    <xacro:shelf2 name="shelves2" frame_id="world" xyz="1.0 3.5 0.0" rpy="0 0 ${pi}"/>
+    <xacro:shelf3 name="shelves3" frame_id="world" xyz="-1.0 3.5 0.0" rpy="0 0 ${pi}"/>
+    <xacro:shelf4 name="shelves4" frame_id="world" xyz="-3.0 3.5 0.0" rpy="0 0 ${pi}"/>
+
+    <xacro:shelf5 name="shelves5" frame_id="world" xyz="3.0 -2.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+    <xacro:shelf1 name="shelves6" frame_id="world" xyz="1.0 -2.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+    <xacro:shelf2 name="shelves7" frame_id="world" xyz="-1.0 -2.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+    <xacro:shelf3 name="shelves8" frame_id="world" xyz="-3.0 -2.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+
+    <xacro:shelf4 name="shelves9" frame_id="world" xyz="3.0 -4.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+    <xacro:shelf5 name="shelves10" frame_id="world" xyz="1.0 -4.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+    <xacro:shelf1 name="shelves11" frame_id="world" xyz="-1.0 -4.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+    <xacro:shelf2 name="shelves12" frame_id="world" xyz="-3.0 -4.5 0.0" rpy="0 0 ${-pi/2.0}"/>
+
+    <xacro:shelf3 name="shelves13" frame_id="world" xyz="4.5 -0.8 0.0" rpy="0 0 0"/>
+    <xacro:shelf4 name="shelves14" frame_id="world" xyz="-4.5 -0.8 0.0" rpy="0 0 ${pi}"/>
+
+    <xacro:table2 name="table1" frame_id="world" xyz="2.0 0.7 0.0"/>
+    <xacro:table2 name="table2" frame_id="world" xyz="-2.0 0.7 0.0"/>
+</robot>

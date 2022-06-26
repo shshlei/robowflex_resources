@@ -1,0 +1,5 @@
+# jackal robot
+urdf: "package://robowflex_resources/robots/jackal/urdf/jackal.urdf.xacro"
+srdf: "package://robowflex_resources/robots/jackal/config/jackal.srdf"
+joint_limits: "package://robowflex_resources/robots/jackal/config/joint_limits.yaml"
+kinematics: "package://robowflex_resources/robots/jackal/config/kinematics.yaml"

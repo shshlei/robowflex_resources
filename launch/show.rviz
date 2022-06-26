@@ -1,0 +1,3470 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+    Tree Height: 731
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        fence:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fence_back/back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_back/bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_back/front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_back/left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_back/right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_back/top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fence_front/back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_front/bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_front/front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_front/left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_front/right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_front/top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fence_left/back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_left/bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_left/front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_left/left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_left/right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_left/top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fence_right/back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_right/bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_right/front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_right/left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_right/right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fence_right/top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves1-can1_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_0_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_3_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-can1_4_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-shelf1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-shelf1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-shelf1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-shelf1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1-shelf1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves10-can5_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_0_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_1_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_2_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-can5_4_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-shelf5_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-shelf5_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-shelf5_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-shelf5_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10-shelf5_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves10_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves11-can1_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_0_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_3_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-can1_4_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-shelf1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-shelf1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-shelf1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-shelf1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11-shelf1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves11_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves12-can2_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-can2_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-shelf2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-shelf2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-shelf2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12-shelf2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves12_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves13-can3_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_5_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_5_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_5_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_5_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_5_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-can3_5_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-shelf3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-shelf3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-shelf3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-shelf3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-shelf3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13-shelf3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves13_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves14-can4_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_2_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_3_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-can4_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-shelf4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-shelf4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-shelf4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-shelf4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14-shelf4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves14_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves1_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves2-can2_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-can2_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-shelf2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-shelf2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-shelf2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2-shelf2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves2_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves3-can3_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_5_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_5_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_5_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_5_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_5_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-can3_5_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-shelf3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-shelf3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-shelf3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-shelf3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-shelf3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3-shelf3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves3_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves4-can4_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_2_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_3_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-can4_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-shelf4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-shelf4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-shelf4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-shelf4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4-shelf4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves4_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves5-can5_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_0_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_1_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_2_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-can5_4_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-shelf5_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-shelf5_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-shelf5_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-shelf5_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5-shelf5_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves5_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves6-can1_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_0_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_3_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-can1_4_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-shelf1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-shelf1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-shelf1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-shelf1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6-shelf1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves6_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves7-can2_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-can2_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-shelf2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-shelf2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-shelf2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7-shelf2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves7_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves8-can3_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_0_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_0_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_0_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_5_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_5_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_5_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_5_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_5_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-can3_5_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-shelf3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-shelf3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-shelf3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-shelf3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-shelf3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8-shelf3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves8_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        shelves9-can4_0_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_0_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_0_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_1_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_2_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_3_9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-can4_4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-shelf4_0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-shelf4_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-shelf4_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-shelf4_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9-shelf4_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9_back_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9_bottom_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9_left_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9_right_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        shelves9_top_wall:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        table1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        table2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        world:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: false
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        {}
+      Update Interval: 0
+      Value: false
+    - Alpha: 1
+      Class: rviz/Axes
+      Enabled: true
+      Length: 1
+      Name: Axes
+      Radius: 0.10000000149011612
+      Reference Frame: <Fixed Frame>
+      Show Trail: false
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 18.073238372802734
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
+      Focal Point:
+        X: 0.6683372855186462
+        Y: 1.5051004886627197
+        Z: 0.7557088136672974
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.5803980827331543
+      Target Frame: <Fixed Frame>
+      Yaw: 1.1335378885269165
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1019
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000001a300000363fc020000000afb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003a00000363000000c600fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb0000003c005400720061006a006500630074006f007200790020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000000000010000010f00000363fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003a000003630000009e00fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007800000003efc0100000002fb0000000800540069006d00650100000000000007800000025100fffffffb0000000800540069006d00650100000000000004500000000000000000000004c20000036300000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1920
+  X: 0
+  Y: 30

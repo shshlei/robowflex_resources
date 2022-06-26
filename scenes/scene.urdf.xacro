@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<robot name="scene" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find urdf_to_scene)/config/utils.xacro" />
+  <xacro:include filename="$(find robowflex_resources)/objects/metadata.xacro" />
+
+  <link name="world" />
+
+  <xacro:framemesh name="apcshelf"
+                 frame_id="world"
+                 xyz="${apcshelf['bb'][0]/2} ${apcshelf['bb'][1]} ${apcshelf['bb'][2]}" rpy="0 0 0" 
+                 metadata="${apcshelf}"/>
+
+  <xacro:framemesh name="bowl"
+                 frame_id="world"
+                 xyz="${bowl['bb'][0]/2} ${bowl['bb'][1]} ${bowl['bb'][2]}" rpy="0 0 0" 
+                 metadata="${bowl}"/>
+
+  <xacro:framemesh name="boxlid"
+                 frame_id="world"
+                 xyz="${boxlid['bb'][0]/2} ${boxlid['bb'][1]} ${boxlid['bb'][2]}" rpy="0 0 0" 
+                 metadata="${boxlid}"/>
+
+  <xacro:framemesh name="clearbox"
+                 frame_id="world"
+                 xyz="${clearbox['bb'][0]/2} ${clearbox['bb'][1]} ${clearbox['bb'][2]}" rpy="0 0 0" 
+                 metadata="${clearbox}"/>
+
+  <xacro:framemesh name="drill"
+                 frame_id="world"
+                 xyz="${drill['bb'][0]/2} ${drill['bb'][1]} ${drill['bb'][2]}" rpy="0 0 0" 
+                 metadata="${drill}"/>
+
+  <xacro:framemesh name="mug"
+                 frame_id="world"
+                 xyz="${mug['bb'][0]/2} ${mug['bb'][1]} ${mug['bb'][2]}" rpy="0 0 0" 
+                 metadata="${mug}"/>
+
+  <xacro:framemesh name="plate"
+                 frame_id="world"
+                 xyz="${plate['bb'][0]/2} ${plate['bb'][1]} ${plate['bb'][2]}" rpy="0 0 0" 
+                 metadata="${plate}"/>
+
+  <xacro:framemesh name="soupcan"
+                 frame_id="world"
+                 xyz="${soupcan['bb'][0]/2} ${soupcan['bb'][1]} ${soupcan['bb'][2]}" rpy="0 0 0" 
+                 metadata="${soupcan}"/>
+
+  <xacro:framemesh name="woodblock"
+                 frame_id="world"
+                 xyz="${woodblock['bb'][0]/2} ${woodblock['bb'][1]} ${woodblock['bb'][2]}" rpy="0 0 0" 
+                 metadata="${woodblock}"/>
+
+</robot>

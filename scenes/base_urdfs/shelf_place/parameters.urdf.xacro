@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="parameters for random fetch environment" >
+  <xacro:property name="M_PI" value="3.141592653589793" />
+  <xacro:property name="shelf_assembly_height" value="1.75" />
+  <xacro:property name="shelf_assembly_width" value="1.0" />
+  <xacro:property name="shelf_assembly_depth" value="0.5" />
+
+  <xacro:property name="wall_thickness" value="0.03" />
+  <xacro:property name="shelf_thickness" value="0.015" />
+  <xacro:property name="shelf_depth" value="0.45" />
+</robot>

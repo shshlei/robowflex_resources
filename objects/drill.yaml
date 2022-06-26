@@ -1,0 +1,6 @@
+drill:
+  resource: "package://robowflex_resources/objects/drill_16k.stl"
+  bb:                               # Bounding box wrt. mesh origin
+    - 0.184361
+    - 0.057189
+    - 0.186929

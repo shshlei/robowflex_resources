@@ -1,0 +1,61 @@
+workspace_parameters:
+  header:
+    frame_id: ""
+  min_corner: [-5, -5, 2]
+  max_corner: [5, 5, 2]
+start_state:
+  joint_state:
+    name: [l_wheel_joint, r_wheel_joint, torso_lift_joint, bellows_joint, head_pan_joint, head_tilt_joint, shoulder_pan_joint, shoulder_lift_joint, upperarm_roll_joint, elbow_flex_joint, forearm_roll_joint, wrist_flex_joint, wrist_roll_joint, l_gripper_finger_joint, r_gripper_finger_joint]
+    position: [0, 0, 0, 0, 0, 0, -4.3e-05, 1.358958, 3.141547, 1.384234, 0.000307, -0.025282, 3.141288, 0.04, 0.04]
+    velocity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  multi_dof_joint_state:
+    joint_names: [virtual_joint]
+    transforms: [{translation: [2, 3.5, 0], rotation: [0, 0, 1, 0]}]
+    twist: []
+    wrench: []
+  attached_collision_objects:
+    - link_name: gripper_link
+      object:
+        header:
+          frame_id: gripper_link
+        id: shelves2-can2_0_1
+        primitives:
+          - type: cylinder
+            dimensions: [0.1, 0.04]
+        primitive_poses:
+          - position: [-7.844324007688641e-06, 4.864903223822381e-06, -0.01616813145755275]
+            orientation: [3.675344649389385e-06, -2.999531646238948e-06, -4.696881513700074e-06, 0.9999999999777169]
+      touch_links:
+        - gripper_link
+        - l_gripper_finger_link
+        - r_gripper_finger_link
+      weight: 0
+goal_constraints:
+  - joint_constraints:
+      - joint_name: virtual_joint/x
+        position: -3
+      - joint_name: virtual_joint/y
+        position: -3.5
+      - joint_name: virtual_joint/theta
+        position: -1.570796326794897
+      - joint_name: torso_lift_joint
+        position: 0
+      - joint_name: shoulder_pan_joint
+        position: 0.390447
+      - joint_name: shoulder_lift_joint
+        position: 0.98581
+      - joint_name: upperarm_roll_joint
+        position: -0.029607
+      - joint_name: elbow_flex_joint
+        position: -1.914817
+      - joint_name: forearm_roll_joint
+        position: -0.500756
+      - joint_name: wrist_flex_joint
+        position: 0.9971989999999999
+      - joint_name: wrist_roll_joint
+        position: 0.306547
+planner_id: RRTConnectkConfigDefault
+group_name: arm_with_base_torso
+allowed_planning_time: 2000
+max_velocity_scaling_factor: 0
+max_acceleration_scaling_factor: 0

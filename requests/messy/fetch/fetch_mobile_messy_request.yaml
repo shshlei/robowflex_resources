@@ -1,0 +1,28 @@
+workspace_parameters:
+  header:
+    frame_id: ""
+  min_corner: [-5, -5, 2]
+  max_corner: [5, 5, 2]
+start_state:
+  joint_state:
+    name: [l_wheel_joint, r_wheel_joint, torso_lift_joint, bellows_joint, head_pan_joint, head_tilt_joint, shoulder_pan_joint, shoulder_lift_joint, upperarm_roll_joint, elbow_flex_joint, forearm_roll_joint, wrist_flex_joint, wrist_roll_joint, l_gripper_finger_joint, r_gripper_finger_joint]
+    position: [0, 0, 0.05, 0, 0, 0, 1.32, 1.4, -0.2, 1.72, 0, 1.66, 0, 0.04, 0.04]
+    velocity: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  multi_dof_joint_state:
+    joint_names: [virtual_joint]
+    transforms: [{translation: [2, 3.5, 0], rotation: [0, 0, 1, 0]}]
+    twist: []
+    wrench: []
+goal_constraints:
+  - joint_constraints:
+      - joint_name: virtual_joint/x
+        position: -3
+      - joint_name: virtual_joint/y
+        position: -3.5
+      - joint_name: virtual_joint/theta
+        position: -1.570796326794897
+planner_id: RRTConnectkConfigDefault
+group_name: mobile_base
+allowed_planning_time: 500
+max_velocity_scaling_factor: 0
+max_acceleration_scaling_factor: 0

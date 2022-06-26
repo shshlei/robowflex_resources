@@ -1,0 +1,263 @@
+planner_configs:
+  SBLkConfigDefault:
+    type: geometric::SBL
+    interpolate: false
+  ESTkConfigDefault:
+    type: geometric::EST
+    interpolate: false
+  LBKPIECEkConfigDefault:
+    type: geometric::LBKPIECE
+    interpolate: false
+  BKPIECEkConfigDefault:
+    type: geometric::BKPIECE
+    interpolate: false
+  KPIECEkConfigDefault:
+    type: geometric::KPIECE
+    interpolate: false
+  RRTkConfigDefault:
+    type: geometric::RRT
+    interpolate: false
+  RRTConnectkConfigDefault:
+    type: geometric::RRTConnect
+    interpolate: false
+  RRTstarkConfigDefault:
+    type: geometric::RRTstar
+    interpolate: false
+  RRTstar10:
+    type: geometric::RRTstar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  InformedRRTstarkConfigDefault:
+    type: geometric::InformedRRTstar
+    interpolate: false
+  InformedRRTstar10:
+    type: geometric::InformedRRTstar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  RRTBispacekConfigDefault:
+    type: geometric::RRTBispace
+    interpolate: false
+  RRTBispaceNotAddInter:
+    type: geometric::RRTBispace
+    interpolate: false
+    add_intermediate_state: false
+  RRTBispacestarkConfigDefault:
+    type: geometric::RRTBispacestar
+    interpolate: false
+  RRTBispacestar10:
+    type: geometric::RRTBispacestar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  RRTBispacestarNot:
+    type: geometric::RRTBispacestar
+    interpolate: false
+    add_intermediate_state: false
+  RRTBispacestar10Not:
+    type: geometric::RRTBispacestar
+    interpolate: false
+    add_intermediate_state: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  BiASEkConfigDefault:
+    type: geometric::BiASE
+    interpolate: false
+  BiASEstarkConfigDefault:
+    type: geometric::BiASEstar
+    interpolate: false
+  BiHSCkConfigDefault:
+    type: geometric::BiHSC
+    interpolate: false
+  BiHSCstarkConfigDefault:
+    type: geometric::BiHSCstar
+    interpolate: false
+  BiHSCstar10:
+    type: geometric::BiHSCstar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  HSCASEkConfigDefault:
+    type: geometric::HSCASE
+    interpolate: false
+  HSCASEstarkConfigDefault:
+    type: geometric::HSCASEstar
+    interpolate: false
+  TRRTkConfigDefault:
+    type: geometric::TRRT
+    interpolate: false
+  PRMkConfigDefault:
+    type: geometric::PRM
+    interpolate: false
+  PRMstarkConfigDefault:
+    type: geometric::PRMstar
+    interpolate: false
+  PRMstar10:
+    type: geometric::PRMstar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  LazyPRMstarkConfigDefault:
+    type: geometric::LazyPRMstar
+    interpolate: false
+  LazyPRMstar10:
+    type: geometric::LazyPRMstar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0 
+  FMTkConfigDefault:
+    type: geometric::FMT
+    interpolate: false
+  BFMTkConfigDefault:
+    type: geometric::FMT
+    interpolate: false
+  LBTRRTkConfigDefault:
+    type: geometric::LBTRRT
+    interpolate: false
+  BITstarkConfigDefault:
+    type: geometric::BITstar
+    interpolate: false
+  BITstar10:
+    type: geometric::BITstar
+    interpolate: false
+    optimization_objective: PathLengthOptimizationObjective
+    optimization_cost: 10.0
+arm:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - InformedRRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - RRTBispacekConfigDefault 
+    - RRTBispacestarkConfigDefault
+    - BiASEkConfigDefault
+    - BiASEstarkConfigDefault
+    - BiHSCkConfigDefault
+    - BiHSCstarkConfigDefault
+    - HSCASEkConfigDefault
+    - HSCASEstarkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - LazyPRMstarkConfigDefault
+    - FMTkConfigDefault
+    - BFMTkConfigDefault
+    - LBTRRTkConfigDefault
+  projection_evaluator: joints(shoulder_pan_joint,shoulder_lift_joint)
+  longest_valid_segment_fraction: 0.005
+arm_with_torso:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - InformedRRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - RRTBispacekConfigDefault 
+    - RRTBispacestarkConfigDefault
+    - BiASEkConfigDefault
+    - BiASEstarkConfigDefault
+    - BiHSCkConfigDefault
+    - BiHSCstarkConfigDefault
+    - HSCASEkConfigDefault
+    - HSCASEstarkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - LazyPRMstarkConfigDefault
+    - FMTkConfigDefault
+    - BFMTkConfigDefault
+    - LBTRRTkConfigDefault
+  projection_evaluator: joints(torso_lift_joint,shoulder_pan_joint)
+  longest_valid_segment_fraction: 0.005
+arm_with_base_torso:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - InformedRRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - RRTBispacekConfigDefault 
+    - RRTBispacestarkConfigDefault
+    - BiASEkConfigDefault
+    - BiASEstarkConfigDefault
+    - BiHSCkConfigDefault
+    - BiHSCstarkConfigDefault
+    - HSCASEkConfigDefault
+    - HSCASEstarkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - LazyPRMstarkConfigDefault
+    - FMTkConfigDefault
+    - BFMTkConfigDefault
+    - LBTRRTkConfigDefault
+  projection_evaluator: joints(virtual_joint,torso_lift_joint,shoulder_pan_joint)
+  longest_valid_segment_fraction: 0.005
+mobile_base:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - InformedRRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - RRTBispacekConfigDefault 
+    - RRTBispacestarkConfigDefault
+    - BiASEkConfigDefault
+    - BiASEstarkConfigDefault
+    - BiHSCkConfigDefault
+    - BiHSCstarkConfigDefault
+    - HSCASEkConfigDefault
+    - HSCASEstarkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - LazyPRMstarkConfigDefault
+    - FMTkConfigDefault
+    - BFMTkConfigDefault
+    - LBTRRTkConfigDefault
+  projection_evaluator: joints(virtual_joint)
+  longest_valid_segment_fraction: 0.005
+gripper:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - InformedRRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - RRTBispacekConfigDefault 
+    - RRTBispacestarkConfigDefault
+    - BiASEkConfigDefault
+    - BiASEstarkConfigDefault
+    - BiHSCkConfigDefault
+    - BiHSCstarkConfigDefault
+    - HSCASEkConfigDefault
+    - HSCASEstarkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - LazyPRMstarkConfigDefault
+    - FMTkConfigDefault
+    - BFMTkConfigDefault
+    - LBTRRTkConfigDefault

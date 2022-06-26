@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<robot name="shelves" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="shelves" params="name frame_id xyz:='0 0 0' rpy:='0 0 0'">
+        <link name="${name}">
+        </link>
+
+        <joint name="${frame_id}_${name}_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+            <parent link="${frame_id}"/>
+            <child link="${name}"/>
+        </joint>
+
+        <link name="${name}_back_wall">
+            <visual>
+                <origin xyz="0 0 ${shelf_assembly_height/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${wall_thickness} ${shelf_assembly_width + 2*wall_thickness} ${shelf_assembly_height}"/>
+                </geometry>
+                <material name="brown"/>
+            </visual>
+            <collision>
+                <origin xyz="0 0 ${shelf_assembly_height/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${wall_thickness} ${shelf_assembly_width + 2*wall_thickness} ${shelf_assembly_height}"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${name}_back_wall_joint" type="fixed">
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+            <parent link="${name}"/>
+            <child link="${name}_back_wall"/>
+        </joint>
+
+        <link name="${name}_bottom_wall">
+            <visual>
+                <origin xyz="0 0 ${wall_thickness/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${shelf_assembly_width + 2*wall_thickness} ${wall_thickness}"/>
+                </geometry>
+                <material name="brown"/>
+            </visual>
+            <collision>
+                <origin xyz="0 0 ${wall_thickness/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${shelf_assembly_width + 2*wall_thickness} ${wall_thickness}"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${name}_bottom_wall_joint" type="fixed">
+            <origin xyz="${-shelf_assembly_depth/2 - wall_thickness/2} 0.0 0.0" rpy="0 0 0"/>
+            <parent link="${name}"/>
+            <child link="${name}_bottom_wall"/>
+        </joint>
+
+
+        <link name="${name}_top_wall">
+            <visual>
+                <origin xyz="0 0 -${wall_thickness/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${shelf_assembly_width + 2*wall_thickness} ${wall_thickness}"/>
+                </geometry>
+                <material name="brown"/>
+            </visual>
+            <collision>
+                <origin xyz="0 0 -${wall_thickness/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${shelf_assembly_width + 2*wall_thickness} ${wall_thickness}"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${name}_top_wall_joint" type="fixed">
+            <origin xyz="${-shelf_assembly_depth/2 - wall_thickness/2} 0.0 ${shelf_assembly_height}" rpy="0 0 0"/>
+            <parent link="${name}"/>
+            <child link="${name}_top_wall"/>
+        </joint>
+
+
+        <link name="${name}_left_wall">
+            <visual>
+                <origin xyz="0 0 ${shelf_assembly_height/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${wall_thickness} ${shelf_assembly_height}"/>
+                </geometry>
+                <material name="brown"/>
+            </visual>
+            <collision>
+                <origin xyz="0 0 ${shelf_assembly_height/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${wall_thickness} ${shelf_assembly_height}"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${name}_left_wall_joint" type="fixed">
+            <origin xyz="${-shelf_assembly_depth/2 - wall_thickness/2} ${shelf_assembly_width/2 + wall_thickness/2} 0.0" rpy="0 0 0"/>
+            <parent link="${name}"/>
+            <child link="${name}_left_wall"/>
+        </joint>
+
+        <link name="${name}_right_wall">
+            <visual>
+                <origin xyz="0 0 ${shelf_assembly_height/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${wall_thickness} ${shelf_assembly_height}"/>
+                </geometry>
+                <material name="brown"/>
+            </visual>
+            <collision>
+                <origin xyz="0 0 ${shelf_assembly_height/2}" rpy="0 0 0"/>
+                <geometry>
+                    <box size="${shelf_assembly_depth} ${wall_thickness} ${shelf_assembly_height}"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${name}_right_wall_joint" type="fixed">
+            <origin xyz="${-shelf_assembly_depth/2 - wall_thickness/2} ${-shelf_assembly_width/2 - wall_thickness/2} 0.0" rpy="0 0 0"/>
+            <parent link="${name}"/>
+            <child link="${name}_right_wall"/>
+        </joint>
+    </xacro:macro> 
+</robot>

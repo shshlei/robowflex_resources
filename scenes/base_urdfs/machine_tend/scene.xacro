@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="ur5">
+  <xacro:include filename="$(find random_scene_gen)/base_urdfs/machine_tend/ur5.urdf.xacro" />
+
+  <!-- arm -->
+  <xacro:ur5_robot prefix="" joint_limited="false"/>
+
+  <material name="red">
+    <color rgba="0.8 0.01 0.01 0.8"/>
+  </material>
+
+  
+  <link name="world"/>
+
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link = "base_link"/>
+    <origin xyz="0.175 -0.13 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="world_to_cnc" type="fixed">
+    <origin xyz="0 -0.412 -0.9" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="cnc"/>
+  </joint>
+  <link name="cnc">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur5/cnc_assembly.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur5/cnc_assembly.dae"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="hand_to_stock" type="fixed">
+    <origin xyz="0 0 0.0" rpy="0 0 0"/>
+    <parent link="tool0"/>
+    <child link="stock"/>
+  </joint>
+  <link name="stock">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur5/stock.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://random_scene_gen/meshes/ur5/stock.dae"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="goal_region"> <visual> <origin xyz="0 0 0" rpy="0 0 0"/><geometry><box size="0.04 0.005 0.0005"/></geometry><material name="red"/>  </visual> </link>
+
+
+  <!-- Goal Range: -->
+  <!-- X: [-0.16, -0.05] -->
+  <!-- Y: [-0.82, -0.75] -->
+  <!-- yaw: [0, 1.57] -->
+
+  
+  <joint name="goal_joint" type="fixed">  <origin xyz="-0.16 -0.75 0.0" rpy="0 0 0.7"/>  <parent link="world"/> <child link="goal_region"/>  </joint>
+
+  
+</robot>

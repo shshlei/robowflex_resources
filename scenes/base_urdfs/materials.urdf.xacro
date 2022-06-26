@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="parameters for random fetch environment" >
+  <material name="white">
+    <color rgba="1 1 1 .6"/>
+  </material>
+  <material name="brown">
+    <color rgba="0.5 0.25 0.01 1"/>
+  </material>
+  <material name="red">
+    <color rgba="0.8 0.01 0.01 0.8"/>
+  </material>
+</robot>

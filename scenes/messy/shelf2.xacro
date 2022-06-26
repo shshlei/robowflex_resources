@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<robot name="messy" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="shelf2" params="name frame_id xyz:='0 0 0' rpy:='0 0 0'">
+        <xacro:include filename="$(find robowflex_resources)/scenes/base_urdfs/shelf_place/shelves.urdf.xacro"/>
+        <xacro:shelves name="${name}" frame_id="${frame_id}" xyz="${xyz}" rpy="${rpy}"/>
+
+        <link name="${name}-shelf2_0"> <visual> <origin xyz="0 0 0.007500" rpy="0 0 0"/><geometry><box size="0.450000 1.000000 0.015000"/></geometry> <material name="brown"/> </visual><collision><origin xyz="0 0 0.007500" rpy="0 0 0"/> <geometry><box size="0.450000 1.000000 0.015000"/></geometry></collision>  </link>
+
+        <joint name="${name}-shelf2_0_joint" type="fixed"><origin xyz="-0.225 0.0 0.348834" rpy="0 0 0"/>  <parent link="${name}"/> <child link="${name}-shelf2_0"/>  </joint>
+
+        <link name="${name}-shelf2_1"> <visual> <origin xyz="0 0 0.007500" rpy="0 0 0"/><geometry><box size="0.450000 1.000000 0.015000"/></geometry> <material name="brown"/> </visual><collision><origin xyz="0 0 0.007500" rpy="0 0 0"/> <geometry><box size="0.450000 1.000000 0.015000"/></geometry></collision>  </link>
+
+        <joint name="${name}-shelf2_1_joint" type="fixed"><origin xyz="-0.225 0.0 0.63538" rpy="0 0 0"/>  <parent link="${name}"/> <child link="${name}-shelf2_1"/>  </joint>
+
+        <link name="${name}-shelf2_2"> <visual> <origin xyz="0 0 0.007500" rpy="0 0 0"/><geometry><box size="0.450000 1.000000 0.015000"/></geometry> <material name="brown"/> </visual><collision><origin xyz="0 0 0.007500" rpy="0 0 0"/> <geometry><box size="0.450000 1.000000 0.015000"/></geometry></collision>  </link>
+
+        <joint name="${name}-shelf2_2_joint" type="fixed"><origin xyz="-0.225 0.0 0.967022" rpy="0 0 0"/>  <parent link="${name}"/> <child link="${name}-shelf2_2"/>  </joint>
+
+        <link name="${name}-shelf2_3"> <visual> <origin xyz="0 0 0.007500" rpy="0 0 0"/><geometry><box size="0.450000 1.000000 0.015000"/></geometry> <material name="brown"/> </visual><collision><origin xyz="0 0 0.007500" rpy="0 0 0"/> <geometry><box size="0.450000 1.000000 0.015000"/></geometry></collision>  </link>
+
+        <joint name="${name}-shelf2_3_joint" type="fixed"><origin xyz="-0.225 0.0 1.27919" rpy="0 0 0"/>  <parent link="${name}"/> <child link="${name}-shelf2_3"/>  </joint>
+
+        <link name="${name}-can2_0_0">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_0_0_joint" type="fixed"><origin xyz="0.175 0.35 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_0"/>  <child link="${name}-can2_0_0"/>  </joint>
+
+        <!--attach-->
+        <link name="${name}-can2_0_1">  <visual><origin xyz="0 0 0.050000" rpy="0 0 0"/><geometry><cylinder length="0.100000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.050000" rpy="0 0 0"/><geometry><cylinder length="0.100000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_0_1_joint" type="fixed"><origin xyz="0.075 -0 0.035" rpy="0 0 0"/><parent link="${name}-shelf2_0"/>  <child link="${name}-can2_0_1"/>  </joint>
+
+        <link name="${name}-can2_0_2">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_0_2_joint" type="fixed"><origin xyz="0.075 -0.3 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_0"/>  <child link="${name}-can2_0_2"/>  </joint>
+
+        <link name="${name}-can2_0_3">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_0_3_joint" type="fixed"><origin xyz="-0.025 -0.25 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_0"/>  <child link="${name}-can2_0_3"/>  </joint>
+
+        <link name="${name}-can2_0_4">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_0_4_joint" type="fixed"><origin xyz="-0.125 -0.3 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_0"/>  <child link="${name}-can2_0_4"/>  </joint>
+
+        <link name="${name}-can2_1_0">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_1_0_joint" type="fixed"><origin xyz="0.175 -0.15 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_1"/>  <child link="${name}-can2_1_0"/>  </joint>
+
+        <link name="${name}-can2_1_1">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_1_1_joint" type="fixed"><origin xyz="0.075 -0.3 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_1"/>  <child link="${name}-can2_1_1"/>  </joint>
+
+        <link name="${name}-can2_1_2">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_1_2_joint" type="fixed"><origin xyz="-0.025 0.45 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_1"/>  <child link="${name}-can2_1_2"/>  </joint>
+
+        <!--attach-->
+        <link name="${name}-can2_1_3">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_1_3_joint" type="fixed"><origin xyz="-0.025 -0.15 0.025" rpy="0 0 0"/><parent link="${name}-shelf2_1"/>  <child link="${name}-can2_1_3"/>  </joint>
+
+        <link name="${name}-can2_2_0">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_0_joint" type="fixed"><origin xyz="0.175 0.45 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_0"/>  </joint>
+
+        <link name="${name}-can2_2_1">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_1_joint" type="fixed"><origin xyz="0.175 0.05 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_1"/>  </joint>
+
+        <link name="${name}-can2_2_2">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_2_joint" type="fixed"><origin xyz="0.175 -0.05 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_2"/>  </joint>
+
+        <link name="${name}-can2_2_3">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_3_joint" type="fixed"><origin xyz="0.075 -0.1 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_3"/>  </joint>
+
+        <link name="${name}-can2_2_4">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_4_joint" type="fixed"><origin xyz="0.075 -0.3 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_4"/>  </joint>
+
+        <link name="${name}-can2_2_5">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_5_joint" type="fixed"><origin xyz="-0.025 0.35 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_5"/>  </joint>
+
+        <link name="${name}-can2_2_6">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_2_6_joint" type="fixed"><origin xyz="-0.025 -0.25 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_2"/>  <child link="${name}-can2_2_6"/>  </joint>
+
+        <link name="${name}-can2_3_0">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_3_0_joint" type="fixed"><origin xyz="0.175 -0.05 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_3"/>  <child link="${name}-can2_3_0"/>  </joint>
+
+        <link name="${name}-can2_3_1">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_3_1_joint" type="fixed"><origin xyz="0.075 -0 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_3"/>  <child link="${name}-can2_3_1"/>  </joint>
+
+        <link name="${name}-can2_3_2">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_3_2_joint" type="fixed"><origin xyz="0.075 -0.3 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_3"/>  <child link="${name}-can2_3_2"/>  </joint>
+
+        <link name="${name}-can2_3_3">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_3_3_joint" type="fixed"><origin xyz="-0.025 0.15 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_3"/>  <child link="${name}-can2_3_3"/>  </joint>
+
+        <link name="${name}-can2_3_4">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_3_4_joint" type="fixed"><origin xyz="-0.025 -0.15 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_3"/>  <child link="${name}-can2_3_4"/>  </joint>
+
+        <link name="${name}-can2_3_5">  <visual><origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry> <material name="white"/></visual>  <collision> <origin xyz="0 0 0.040000" rpy="0 0 0"/><geometry><cylinder length="0.080000" radius="0.040000"/></geometry>  </collision> </link>
+
+        <joint name="${name}-can2_3_5_joint" type="fixed"><origin xyz="-0.025 -0.25 0.015" rpy="0 0 0"/><parent link="${name}-shelf2_3"/>  <child link="${name}-can2_3_5"/>  </joint>
+    </xacro:macro>  
+</robot>

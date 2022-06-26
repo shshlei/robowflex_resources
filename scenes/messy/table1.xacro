@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="table">
+    <xacro:macro name="table1" params="name frame_id xyz:='0 0 0' rpy:='0 0 0'">
+        <link name="${name}">
+            <visual>
+                <orign xyz="0 0 0" rpy="0 0 0"/>
+                <geometry>
+                    <mesh filename="package://robowflex_resources/objects/cafe_table.dae"/>
+                </geometry>
+                <!--material name="white"/-->
+            </visual>
+            <collision>
+                <orign xyz="0 0 0" rpy="0 0 0"/>
+                <geometry>
+                    <mesh filename="package://robowflex_resources/objects/cafe_table.dae"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${frame_id}_${name}_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+            <parent link="${frame_id}"/>
+            <child link="${name}"/>
+        </joint>
+    </xacro:macro>  
+</robot>

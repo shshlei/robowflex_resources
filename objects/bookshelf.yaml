@@ -1,0 +1,2 @@
+bookshelf:
+  resource: "package://robowflex_resources/objects/bookshelf.dae"
